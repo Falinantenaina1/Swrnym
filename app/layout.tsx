@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { ThemeProvider } from "@/themes/ThemeProvider";
+import { Separator } from "@/components/ui/separator";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -33,6 +34,7 @@ export default function RootLayout({
         >
           <div className="font-sans max-w-7xl flex flex-col mx-auto">
             <Navbar />
+            <Separator />
             <main>
               {children}
             </main>

@@ -3,12 +3,14 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "./ui/button"
+import { ModeToggle } from "@/themes/ModeToggle"
 
 export const MobileNavbar = () => {
     return (
-        <div className="md:hidden">
+        <div className="flex items-center gap-x-8 md:hidden">
+            <ModeToggle />
             <Sheet>
-                <SheetTrigger className="px-6">
+                <SheetTrigger className="pr-6">
                     <Menu className="text-black dark:text-white size-10" />
                 </SheetTrigger>
                 <SheetContent className="text-black dark:text-white">
