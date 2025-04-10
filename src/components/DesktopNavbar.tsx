@@ -5,7 +5,7 @@ import { ModeToggle } from "@/themes/ModeToggle"
 
 export const DesktopNavbar = () => {
   return (
-    <div className="max-md:hidden space-x-4 p-6 text-black dark:text-white">
+    <div className="max-md:hidden space-x-4 p-6 text-heading">
         <ModeToggle />
         <Link href="/">Vehicles</Link>
         <Link href="/">Shopping Assist</Link>
