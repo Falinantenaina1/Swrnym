@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+import { Inventory } from "@/components/Inventory";
 import { Shopping } from "@/components/Shopping";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Shopping />
+      <Inventory />
     </>
   );
 }
