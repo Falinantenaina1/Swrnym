@@ -18,7 +18,7 @@ export const Inventory = () => {
                     </div>
                 </div>
                 <Image src="/black_car.jpg" alt="black car" width={1280} height={606} className="rounded-4xl" />
-                <div className="grid grid-cols-2 md:grid-cols-4 items space-x-2 space-y-2">
+                <div className="grid grid-cols-2 md:grid-cols-4 items-center space-x-2 space-y-2">
                     <div>Awarded by world best</div>
                     <div className="max-md:grid md:flex md:gap-x-2 grid-cols-3 items-center"><span className="col-span-1 text-heading text-2xl md:text-3xl">#1</span><span className="col-span-2">On top selling company</span></div>
                     <div className="max-md:grid md:flex md:gap-x-2 grid-cols-3 items-center"><span className="col-span-1 text-heading text-2xl md:text-3xl">67k</span><span className="col-span-2">User Rating</span></div>
